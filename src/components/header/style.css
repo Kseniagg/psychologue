@@ -1,0 +1,17 @@
+header {
+    width: 100%;
+    /* background-color: #2E76E4; */
+    padding: 1.5rem 0;
+    background-color: yellow;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin: 0 2rem;
+}
