@@ -8,11 +8,7 @@ body {
     color: #444;
 }
 
-h1 {
-    margin: 50px 0 30px;
-    text-align: center;
-    color: var(--accent-color);
-}
+
 
 .faq-container {
     max-width: 600px;
@@ -77,11 +73,8 @@ h1 {
     transition: 0.3s ease;
 }
 
-.faq-toggle:focus {
-    outline: none;
-}
 
-.faq.active .faq-toggle {
+.faq-toggle.svg {
     transform: rotate(180deg);
     background-color: var(--accent-color);
     border-color: var(--accent-color);

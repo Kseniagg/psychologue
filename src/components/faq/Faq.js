@@ -1,37 +1,29 @@
-import { useState, useRef } from "react";
-import "./style.css";
-import { data } from "./data.js";
-import { BiChevronDown } from "react-icons/bi";
+import React from "react";
+import Accordion from "./Accordion";
 
 const Faq = () => {
-    const [faq, setFaq] = useState(data);
-    const [active, setActive] = useState("faq");
 
-    const contentRef = useRef(null);
 
-    const handleChange = () => {
-        const n = contentRef.current.style = active === "faq" ? "faq active" : "faq";
-        setActive(n);
-    }
+    const data = [
+        {
+            "question": "Lorem ipsum dolor sit amet.",
+            "response": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod nobis, repellat neque non dict fugiat veritatis sit delectus perspiciatis quis?"
+        },
+        {
+            "question": "Lorem ipsum dolor sit amet.",
+            "response": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod nobis, repellat neque non dicta fugiat veritatis sit delectus perspiciatis quis?"
+        }
+    ];
 
     return (
-        <>
-            <h1>Frequently Asked Questions</h1>
-            <div className="faq-container">
-                {faq.map((f, i) => (
-                    <div className={active} key={i} ref={contentRef}>
-                        <h3 className="faq-title">
-                            {f.q}
-                        </h3>
-                        <p className="faq-text">{f.r}</p>
-                        <button className="faq-toggle"
-                            onClick={() => handleChange(f.id)}>
-                            <BiChevronDown />
-                        </button>
-                    </div>
+        <div className="section">
+            <h3>Частые вопросы</h3>
+            <div className="accordion">
+                {data.map(({ question, response }) => (
+                    <Accordion title={question} content={response} />
                 ))}
-            </div >
-        </>
+            </div>
+        </div>
     )
 }
 

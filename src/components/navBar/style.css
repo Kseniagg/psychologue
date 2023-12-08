@@ -1,6 +1,7 @@
 .nav {
     padding: 20px 0;
-    color: var(--nav-text);
+    z-index: 4;
+    top: 0;
 }
 
 .nav-list {
@@ -14,28 +15,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.nav-list__link {
-    color: var(--nav-text);
-    transition: opacity 0.2s ease-in;
+.nav a {
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: border-bottom 0.2s linear;
 }
 
-.nav-list__link:hover {
-    opacity: 0.8;
-}
-
-.nav-list__link--active {
-    position: relative;
-}
-
-.nav-list__link--active::before {
-    content: '';
-
-    position: absolute;
-    left: 0;
-    top: 100%;
-
-    display: block;
-    height: 2px;
-    width: 100%;
-    background-color: var(--accent);
+.nav a:hover {
+    border-bottom: 3px solid #D3CA39;
 }

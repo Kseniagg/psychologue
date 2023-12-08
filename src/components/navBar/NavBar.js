@@ -2,8 +2,6 @@ import { NavLink } from "react-router-dom";
 import "./style.css";
 
 const NavBar = () => {
-    const activeLink = 'nav-list__link nav-list__link--active';
-    const normalLink = 'nav-list__link';
 
     return (
         <>
@@ -13,44 +11,35 @@ const NavBar = () => {
                 <ul className="nav-list">
 
                     <li className="nav-list__item">
-                        <NavLink
-                            to="/"
-                            className={({ isActive }) =>
-                                isActive ? activeLink : normalLink
-                            }
+                        <a href="/"
+                            className=""
+
                         >
                             Главная
-                        </NavLink>
+                        </a>
                     </li>
                     <li className="nav-list__item">
-                        <NavLink
-                            to="/"
-                            className={({ isActive }) =>
-                                isActive ? activeLink : normalLink
-                            }
+                        <a
+                            href="/"
+                            className=""
                         >
                             Обо мне
-                        </NavLink>
+                        </a>
                     </li>
                     <li className="nav-list__item">
-                        <NavLink
-                            to="/"
-                            className={({ isActive }) =>
-                                isActive ? activeLink : normalLink
-                            }
+                        <a
+                            href="/"
+
                         >
                             Тарифы
-                        </NavLink>
+                        </a>
                     </li >
                     <li className="nav-list__item">
-                        <NavLink
-                            to="/"
-                            className={({ isActive }) =>
-                                isActive ? activeLink : normalLink
-                            }
+                        <a href="/"
+
                         >
                             Контакты
-                        </NavLink>
+                        </a>
                     </li >
                 </ul>
             </div>
