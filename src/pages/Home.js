@@ -18,12 +18,14 @@ const Home = () => {
 
             <div>
                 <Header />
-                <div className="container main-section">
+                <div className="container main-section" >
                     <div className="bgd bgd-letters"></div>
                     <div className="bgd bgd-photo"></div>
                     <div className="main-text">
-                        <h1>Ольга Берген</h1>
-                        <p>психолог</p>
+                        <div className="name-text">
+                            <h1>Ольга Берген</h1>
+                            <p>психолог</p>
+                        </div>
                         <BtnBook />
 
                     </div>

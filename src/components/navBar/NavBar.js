@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+
 import "./style.css";
 
 const NavBar = () => {
@@ -43,6 +44,7 @@ const NavBar = () => {
                     </li >
                 </ul>
             </div>
+
 
         </>
     )

@@ -52,10 +52,6 @@
 
 
 
-
-
-
-
 /* Направления моей деятельности */
 
 .article-mywork {
@@ -71,4 +67,38 @@
 
 .article-img {
     width: 40%;
+}
+
+@media (max-width: 620px) and (min-width: 480px) {}
+
+@media (max-width: 480px) {
+
+
+    .bgd-photo {
+        background-position: right -23px top -20%;
+        height: 52%;
+        background-size: 100%;
+    }
+
+    .bgd-letters {
+        background-position: left 40% top 31%;
+    }
+
+    .main-text {
+        margin-right: 0;
+        margin-bottom: 0;
+
+    }
+
+    .name-text {
+        width: 84%;
+        margin-left: -19%;
+        margin-top: 0%;
+
+    }
+
+    .btn-action {
+        margin-top: 78%;
+        margin-left: 41%;
+    }
 }

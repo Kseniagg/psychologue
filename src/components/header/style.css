@@ -1,5 +1,5 @@
 header {
-    width: 100%;
+    /*  width: 100%; */
     /* background-color: #2E76E4; */
     padding-top: 5px;
     /*  background-color: #bcccc1; */
@@ -11,6 +11,7 @@ header {
 .header {
     display: flex;
     align-items: center;
+    z-index: 4;
 }
 
 .logo {
@@ -21,4 +22,91 @@ header {
     z-index: 4;
     cursor: pointer;
     margin-left: 40px;
+}
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+    header {
+        padding-top: 0px;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .navbar {
+        height: 50px;
+        width: 100%;
+        position: fixed;
+        z-index: 50;
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar.activated {
+        background-color: #B0C4B7;
+    }
+
+    .burger-btn {
+        width: 30px;
+        height: 30px;
+        margin-left: 20px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .burger-btn:before {
+        content: '';
+        position: absolute;
+        top: 5px;
+        width: 20px;
+        height: 2px;
+        background-color: black;
+    }
+
+    .burger-btn span {
+        content: '';
+        position: absolute;
+        top: 13px;
+        width: 20px;
+        height: 2px;
+        background-color: black;
+    }
+
+    .burger-btn:after {
+        content: '';
+        position: absolute;
+        top: 21px;
+        width: 20px;
+        height: 2px;
+        background-color: black;
+    }
+
+    .burger-btn.activated:before {
+        opacity: 0;
+    }
+
+    .burger-btn.activated:after,
+    .burger-btn.activated span {
+        top: 15px;
+        width: 24px;
+        height: 1.5px;
+    }
+
+    .burger-btn.activated span {
+        transform: rotate(45deg);
+    }
+
+    .burger-btn.activated:after {
+        transform: rotate(135deg);
+
+    }
+
+
+
+
 }

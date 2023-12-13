@@ -5,7 +5,7 @@ import pic from "../../img/aboutOlga.jpg";
 const AboutMe = () => {
     return (
         <>
-            <div className="section">
+            <div className="section" id="#aboutme-section">
                 <h3>Обо мне</h3>
                 <div className="about-section">
                     <div className="picture_section">

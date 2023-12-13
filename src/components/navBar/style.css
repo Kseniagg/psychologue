@@ -25,3 +25,9 @@
     border-bottom: 3px solid #D3CA39;
     opacity: 0.8;
 }
+
+@media (max-width: 480px) {
+    .nav {
+        display: none;
+    }
+}

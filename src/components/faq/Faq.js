@@ -19,8 +19,8 @@ const Faq = () => {
         <div className="section">
             <h3>Частые вопросы</h3>
             <div className="accordion">
-                {data.map(({ question, response }) => (
-                    <Accordion title={question} content={response} />
+                {data.map(({ question, response }, n) => (
+                    <Accordion title={question} content={response} key={n} />
                 ))}
             </div>
         </div>
