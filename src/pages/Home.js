@@ -5,6 +5,8 @@ import Footer from "../components/footer/Footer";
 import AboutMe from "../components/aboutMe/AboutMe";
 import "./style.css";
 import pic from "../img/work.jpg";
+
+
 const Home = () => {
 
 
@@ -23,6 +25,7 @@ const Home = () => {
                         <h1>Ольга Берген</h1>
                         <p>психолог</p>
                         <BtnBook />
+
                     </div>
                 </div>
 

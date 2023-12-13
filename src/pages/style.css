@@ -40,17 +40,15 @@
 
 .bgd-letters {
     background: url("/src/img/lettres.jpg");
-    background-size: 100%;
-    background-position: left -35% top 15%;
+    background-size: 107%;
+    background-position: left 40% top 15%;
     background-repeat: no-repeat;
     z-index: 1;
     filter: blur(1px);
-    opacity: 8%;
+    opacity: 6%;
 }
 
-.logo {
-    cursor: pointer;
-}
+
 
 
 

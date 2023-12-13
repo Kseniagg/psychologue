@@ -1,7 +1,7 @@
 header {
     width: 100%;
     /* background-color: #2E76E4; */
-    padding: 1.5rem 0;
+    padding-top: 5px;
     /*  background-color: #bcccc1; */
     background-color: #B0C4B7;
     background-color: #A2B5A9;
@@ -13,13 +13,12 @@ header {
     align-items: center;
 }
 
-
 .logo {
-    font-size: 1.3rem;
-    text-decoration: none;
-    margin: 0 2rem;
-    text-transform: uppercase;
-    color: #ffffff;
-    cursor: pointer;
+    width: 165px;
+}
+
+.logo_link {
     z-index: 4;
+    cursor: pointer;
+    margin-left: 40px;
 }
