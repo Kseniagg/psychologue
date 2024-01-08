@@ -6,7 +6,7 @@ const Faq = () => {
 
     const data = [
         {
-            "question": "Lorem ipsum dolor sit amet.",
+            "question": "Сколько длится сессия ?",
             "response": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod nobis, repellat neque non dict fugiat veritatis sit delectus perspiciatis quis?"
         },
         {

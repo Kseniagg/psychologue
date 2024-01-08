@@ -16,9 +16,7 @@ const Footer = () => {
                     <ul>
                         <li>© Atout On Line 2023</li>
                         <li>
-                            "Cette application web a été produite avec l'aide financière de
-                            l'Union européenne. Le contenu du site web est la responsabilité
-                            de ABC"
+                            "Cette application web a été produite"
                         </li>
                     </ul>
                 </li>

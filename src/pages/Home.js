@@ -3,8 +3,13 @@ import BtnBook from "../components/btnBook/BtnBook";
 import Faq from "../components/faq/Faq";
 import Footer from "../components/footer/Footer";
 import AboutMe from "../components/aboutMe/AboutMe";
+import Tarifs from "../components/tarifs/Tarifs";
+import Tarifscopy from "../components/tarifs/Tarifscopy.js";
 import "./style.css";
-import pic from "../img/work.jpg";
+import pic1 from "../img/relationships.png";
+import pic2 from "../img/money.png";
+import pic3 from "../img/insomnia.png";
+
 
 
 const Home = () => {
@@ -33,21 +38,21 @@ const Home = () => {
 
 
                 <div className="container">
-                    <article className="section">
+                    <article className="section-mywork">
                         <h3>Направления моей деятельности</h3>
                         <div className="article-mywork">
                             <div className="article-item">
-                                <img src={pic} className="article-img" alt="" />
+                                <img src={pic1} className="article-img" alt="" />
                                 <p className="article-title">Отношения</p>
                                 <p>Устранения созависимостей</p>
                             </div>
                             <div className="article-item">
-                                <img src={pic} className="article-img" alt="" />
+                                <img src={pic2} className="article-img" alt="" />
                                 <p className="article-title">Отношения</p>
                                 <p>Устранения созависимостей</p>
                             </div>
                             <div className="article-item">
-                                <img src={pic} className="article-img" alt=""></img>
+                                <img src={pic3} className="article-img" alt=""></img>
                                 <p className="article-title">Отношения</p>
                                 <p>Устранения созависимостей</p>
                             </div>
@@ -55,6 +60,7 @@ const Home = () => {
 
                     </article>
                     <AboutMe />
+                    <Tarifs />
                     <Faq />
                 </div>
             </div>

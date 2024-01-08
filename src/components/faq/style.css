@@ -1,5 +1,5 @@
 :root {
-    --accent-color: #a876aa;
+    --accent-color: #D3CA39;
 }
 
 body {
@@ -13,9 +13,8 @@ body {
 .faq-container {
     max-width: 600px;
     margin: 0 auto;
-    border-radius: 10px;
+    border-radius: 7px;
     background-color: #fff;
-    overflow: hidden;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
@@ -27,12 +26,16 @@ body {
     overflow: hidden;
 }
 
-.faq:not(:first-child) {
+.faq {
     border-top: 1px solid #e6e6e6;
 }
 
 .faq-title {
     margin: 0 35px 0 0;
+}
+
+.faq-title.active {
+    color: var(--accent-color);
 }
 
 .faq-text {
@@ -44,10 +47,6 @@ body {
 .faq.active {
     background-color: #f8f8f8;
     box-shadow: inset 4px 0px 0px 0px var(--accent-color);
-}
-
-.faq.active .faq-title {
-    color: var(--accent-color);
 }
 
 .faq.active .faq-text {
@@ -74,7 +73,7 @@ body {
 }
 
 
-.faq-toggle.svg {
+.svg {
     transform: rotate(180deg);
     background-color: var(--accent-color);
     border-color: var(--accent-color);

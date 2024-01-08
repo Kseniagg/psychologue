@@ -59,31 +59,26 @@ header {
         cursor: pointer;
     }
 
-    .burger-btn:before {
-        content: '';
-        position: absolute;
-        top: 5px;
-        width: 20px;
-        height: 2px;
-        background-color: black;
-    }
-
-    .burger-btn span {
-        content: '';
-        position: absolute;
-        top: 13px;
-        width: 20px;
-        height: 2px;
-        background-color: black;
-    }
-
+    .burger-btn:before,
+    .burger-btn span,
     .burger-btn:after {
         content: '';
         position: absolute;
-        top: 21px;
         width: 20px;
         height: 2px;
         background-color: black;
+    }
+
+    .burger-btn:before {
+        top: 5px;
+    }
+
+    .burger-btn span {
+        top: 13px;
+    }
+
+    .burger-btn:after {
+        top: 21px;
     }
 
     .burger-btn.activated:before {
