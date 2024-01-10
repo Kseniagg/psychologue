@@ -1,0 +1,16 @@
+.section_specialoffer {
+    margin-top: 10em;
+    background-color: #b0cece;
+    padding: 70px;
+
+}
+
+.container.specialoffer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container.specialoffer div {
+    width: 33%;
+}

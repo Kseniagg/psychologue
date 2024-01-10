@@ -2,14 +2,6 @@
     --accent-color: #D3CA39;
 }
 
-body {
-    font-family: "Poppins", sans-serif;
-    background-color: #eee;
-    color: #444;
-}
-
-
-
 .faq-container {
     max-width: 600px;
     margin: 0 auto;

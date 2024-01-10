@@ -1,7 +1,30 @@
-@import "react-alice-carousel/lib/alice-carousel.css";
+/* @import "react-alice-carousel/lib/alice-carousel.css"; */
+
+.alice-carousel {
+    width: 99%;
+}
 
 .alice-carousel__wrapper {
-    min-height: 11.5em;
+    min-height: 13.5em;
+    padding-top: 20px;
+}
+
+.alice-carousel__stage-item {
+    padding-left: 10px;
+}
+
+.alice-carousel__dots {
+    margin: 12px 3px 5px;
+}
+
+.alice-carousel__dots-item.__active,
+.alice-carousel__dots-item.__custom,
+.alice-carousel__dots-item {
+    background-color: #a9dbbb;
+}
+
+.alice-carousel__dots-item {
+    background-color: #ceddd3;
 }
 
 .tarifs_bloc {

@@ -4,6 +4,7 @@ import Faq from "../components/faq/Faq";
 import Footer from "../components/footer/Footer";
 import AboutMe from "../components/aboutMe/AboutMe";
 import Tarifs from "../components/tarifs/Tarifs";
+import SpecialOffer from "../components/specialOffer/SpecialOffer";
 import Tarifscopy from "../components/tarifs/Tarifscopy.js";
 import "./style.css";
 import pic1 from "../img/relationships.png";
@@ -36,8 +37,8 @@ const Home = () => {
                     </div>
                 </div>
 
-
                 <div className="container">
+
                     <article className="section-mywork">
                         <h3>Направления моей деятельности</h3>
                         <div className="article-mywork">
@@ -59,9 +60,13 @@ const Home = () => {
                         </div>
 
                     </article>
+                </div>
+                <SpecialOffer />
+                <div className="container">
                     <AboutMe />
                     <Tarifs />
                     <Faq />
+
                 </div>
             </div>
             <Footer />
