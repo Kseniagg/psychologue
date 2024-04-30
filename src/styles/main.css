@@ -1,6 +1,14 @@
 @import './reset.css';
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap'); */
 
+@font-face {
+	font-family: MyFont;
+	src: url("../fonts/MyFont.ttf");
+}
+
+body {
+	font-family: MyFont, sans-serif;
+}
 
 
 * {
@@ -20,14 +28,11 @@
 html,
 body {
 	min-height: 100vh;
-
-	font-family: 'DM Sans', sans-serif;
 	letter-spacing: -0.5px;
 
 }
 
 body {
-	font-family: "Poppins", sans-serif;
 	/* background-color: #f9fafa; */
 	color: #444;
 }

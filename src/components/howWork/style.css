@@ -1,0 +1,51 @@
+.section-howwork {
+    text-align: center;
+    margin-left: 32%;
+    margin-right: 15%;
+}
+
+.howwork_text {
+    font-size: 20px;
+    text-align: left;
+}
+
+.howwork_text p {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.howwork_text p::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: -52px;
+    top: -6px;
+    width: 100%;
+    height: 184%;
+    margin-right: 5px;
+}
+
+.howwork_text p:nth-child(1)::before {
+    background: url('../../img/numbers/one_sml.png');
+    background-repeat: no-repeat;
+}
+
+.howwork_text p:nth-child(2)::before {
+    background: url('../../img/numbers/two_sml.png');
+    background-repeat: no-repeat;
+}
+
+.howwork_text p:nth-child(3)::before {
+    background: url('../../img/numbers/three_sml.png');
+    background-repeat: no-repeat;
+}
+
+.howwork_text p:nth-child(4)::before {
+    background: url('../../img/numbers/four_sml.png');
+    background-repeat: no-repeat;
+}
+
+.howwork_btn {
+    margin-right: 60px;
+}

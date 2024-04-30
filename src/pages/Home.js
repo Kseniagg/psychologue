@@ -10,6 +10,7 @@ import "./style.css";
 import pic1 from "../img/relationships.png";
 import pic2 from "../img/money.png";
 import pic3 from "../img/insomnia.png";
+import HowWork from "../components/howWork/HowWork.js";
 
 
 
@@ -32,7 +33,10 @@ const Home = () => {
                             <h1>Ольга Берген</h1>
                             <p>психолог</p>
                         </div>
-                        <BtnBook />
+                        <div>
+                            <BtnBook />
+                        </div>
+
 
                     </div>
                 </div>
@@ -43,20 +47,21 @@ const Home = () => {
                         <h3>Направления моей деятельности</h3>
                         <div className="article-mywork">
                             <div className="article-item">
-                                <img src={pic1} className="article-img" alt="" />
+                                <div className="img-box"><img src={pic3} className="article-img" alt=""></img></div>
+                                <p className="article-title">Травмы</p>
+                                <p>Проработка травматического опыта</p>
+                            </div>
+                            <div className="article-item">
+                                <div className="img-box"><img src={pic1} className="article-img" alt="" /></div>
                                 <p className="article-title">Отношения</p>
                                 <p>Устранения созависимостей</p>
                             </div>
                             <div className="article-item">
-                                <img src={pic2} className="article-img" alt="" />
-                                <p className="article-title">Отношения</p>
-                                <p>Устранения созависимостей</p>
+                                <div className="img-box"><img src={pic2} className="article-img" alt="" /></div>
+                                <p className="article-title">Финансы</p>
+                                <p>Работа с материальным благополучием</p>
                             </div>
-                            <div className="article-item">
-                                <img src={pic3} className="article-img" alt=""></img>
-                                <p className="article-title">Отношения</p>
-                                <p>Устранения созависимостей</p>
-                            </div>
+
                         </div>
 
                     </article>
@@ -65,6 +70,7 @@ const Home = () => {
                 <div className="container">
                     <AboutMe />
                     <Tarifs />
+                    <HowWork />
                     <Faq />
 
                 </div>

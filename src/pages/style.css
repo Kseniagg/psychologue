@@ -5,8 +5,12 @@
     align-items: center;
 }
 
-.main-text>p {
+.main-text p {
     text-transform: uppercase;
+    text-align: center;
+}
+
+.main-text h1 {
     text-align: center;
 }
 
@@ -70,6 +74,10 @@
 
 .article-img {
     width: 60%;
+}
+
+.img-box {
+    margin-bottom: 2px;
 }
 
 @media (max-width: 620px) and (min-width: 480px) {}
