@@ -34,8 +34,8 @@
 
 .bgd-photo {
     background: url("/src/img/main_photo8.png");
-    background-position: right 20% top -35%;
-    height: 93%;
+    background-position: right 20% top -33%;
+    height: 95%;
     background-size: 45%;
     background-repeat: no-repeat;
     z-index: 2;

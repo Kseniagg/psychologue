@@ -10,13 +10,26 @@ const Faq = () => {
             "response": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod nobis, repellat neque non dict fugiat veritatis sit delectus perspiciatis quis?"
         },
         {
-            "question": "Lorem ipsum dolor sit amet.",
+            "question": "Lorem ipsum dolor sit amet",
+            "response": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod nobis, repellat neque non dicta fugiat veritatis sit delectus perspiciatis quis?"
+        },
+        {
+            "question": "Lorem ipsum dolor sit amet",
+            "response": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod nobis, repellat neque non dicta fugiat veritatis sit delectus perspiciatis quis?"
+        },
+        {
+            "question": "Lorem ipsum dolor sit amet",
+            "response": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod nobis, repellat neque non dicta fugiat veritatis sit delectus perspiciatis quis?"
+        },
+        {
+            "question": "Lorem ipsum dolor sit amet",
             "response": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod nobis, repellat neque non dicta fugiat veritatis sit delectus perspiciatis quis?"
         }
+
     ];
 
     return (
-        <div className="section">
+        <div className="section faq-section">
             <h3>Частые вопросы</h3>
             <div className="accordion">
                 {data.map(({ question, response }, n) => (

@@ -27,7 +27,7 @@ const Scelet = () => {
 
     return (
         <>
-            <div className="tarifs_bloc">
+            <div className="tarifs_bloc" >
                 {
                     items.map((item, n) => (
                         <div className="tarifs_item" key={n}>

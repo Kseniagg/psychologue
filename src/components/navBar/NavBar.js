@@ -21,7 +21,7 @@ const NavBar = () => {
                     </li>
                     <li className="nav-list__item">
                         <a
-                            href="/"
+                            href="#aboutme-section"
                             className=""
                         >
                             Обо мне
@@ -29,14 +29,14 @@ const NavBar = () => {
                     </li>
                     <li className="nav-list__item">
                         <a
-                            href="/"
+                            href="#prices-section"
 
                         >
                             Тарифы
                         </a>
                     </li >
                     <li className="nav-list__item">
-                        <a href="/"
+                        <a href="#contacts-section"
 
                         >
                             Контакты

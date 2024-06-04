@@ -14,6 +14,23 @@
     text-align: center;
     text-decoration: none;
     color: black;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.picture_section a {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
+
+.picture_section a:hover {
+    color: #fff;
+    text-shadow: 0 0 20px #fff,
+        0 0 30px #ff4da6,
+        0 0 40px #ff4da6,
+        0 0 50px #ff4da6,
+        0 0 60px #ff4da6,
+        0 0 70px #ff4da6,
+        0 0 80px #ff4da6, 2px 1px 2px black;
 }
 
 .photo_aboutme {
@@ -28,6 +45,7 @@
 .text_section div {
     position: absolute;
     z-index: 1;
+    text-align: center;
     /*  border: 1px solid;
     padding: 5px 10px;
     border-radius: 5px; */
@@ -37,22 +55,23 @@
 
 .text_section div:nth-child(1) {
     top: 16em;
-    left: -5em;
+    left: -7em;
     color: red;
+
 }
 
 .text_section div:nth-child(2) {
     top: 11em;
-    left: 2em;
-}
-
-.text_section div:nth-child(3) {
-    top: 0;
     left: 1em;
 }
 
+.text_section div:nth-child(3) {
+    top: -5px;
+    left: 8px;
+}
+
 .text_section div:nth-child(4) {
-    top: 16em;
+    top: 17em;
     left: 11em;
 }
 
@@ -62,8 +81,8 @@
 }
 
 .text_section div:nth-child(6) {
-    top: 1em;
-    left: 22em;
+    top: 0;
+    left: 24em;
 }
 
 .girl-box {
@@ -72,7 +91,7 @@
 
 .img_girl {
     position: absolute;
-    bottom: 0;
+    bottom: 16px;
     height: 150px;
 }
 
@@ -111,7 +130,7 @@
     background: url("../../img/bulls_big.png");
     background-repeat: no-repeat;
     z-index: 2;
-    background-position: 8% 22%;
+    background-position: 8% 0;
     background-size: 52%;
     background-repeat: no-repeat;
     height: 600px;

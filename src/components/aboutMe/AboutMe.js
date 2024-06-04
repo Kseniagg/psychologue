@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import "./style.css";
 import pic from "../../img/aboutOlga.jpg";
 import girl from "../../img/girl.png";
@@ -18,7 +17,7 @@ const AboutMe = () => {
 
     return (
         <>
-            <div className="section" id="#aboutme-section">
+            <div className="section" id="aboutme-section">
                 <div className="img_bulls">
                     <div className="parallax background-bigs-bulls"
                         onMouseMove={moveBackground}></div>
@@ -43,7 +42,7 @@ const AboutMe = () => {
 
                         <div className="picture_section">
                             <img src={pic} alt="photoOlga" className="photo_aboutme" />
-                            <Link> Мои статьи на b24 </Link >
+                            <a href="" className="about_section_link"> Мои статьи на b24 </a >
                         </div>
 
                         {/*  <div className="text_section">

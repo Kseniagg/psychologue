@@ -1,5 +1,5 @@
 .section_specialoffer {
-    margin-top: 10em;
+    margin-top: 8em;
     background-color: #b0cece;
     padding: 70px;
 
@@ -13,4 +13,16 @@
 
 .container.specialoffer div {
     width: 33%;
+}
+
+.section_sploffer_text {
+    padding-top: 2px;
+}
+
+.section_sploffer_text p {
+    padding: 4px;
+}
+
+.section_sploffer_text p span {
+    text-transform: uppercase;
 }

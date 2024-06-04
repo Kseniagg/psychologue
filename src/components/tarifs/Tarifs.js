@@ -13,7 +13,7 @@ const Tarifs = () => {
     };
 
     const items = [
-        <div className="tarifs_item item" data-value="1">
+        <div className="tarifs_item item" data-value="1" >
             <p className="tarifs_item_name"><strong>Диагностика</strong></p>
             <p>Lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem
                 ipsum ipsum lorem ipsum ipsum lorem
@@ -57,7 +57,7 @@ const Tarifs = () => {
     ];
 
     return (
-        <div className="section tarifs">
+        <div className="section tarifs" id="prices-section">
             <h3>Тарифы и услуги</h3>
             <div className="tarifs_bloc">
                 <AliceCarousel

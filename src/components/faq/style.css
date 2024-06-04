@@ -2,6 +2,10 @@
     --accent-color: #D3CA39;
 }
 
+.section.faq-section {
+    margin-top: 6em;
+}
+
 .faq-container {
     max-width: 600px;
     margin: 0 auto;

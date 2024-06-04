@@ -1,9 +1,12 @@
 import './style.css';
+import { FaFacebookF } from "react-icons/fa";
+import { RiTwitterXFill } from "react-icons/ri";
+import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
     return (
         <footer>
-            <ul className="container footer">
+            <ul className="container footer" id="contacts-section">
                 <li><p>Contact</p>
                     <ul>
                         <li><a href="mailto:email@example.com">email@example.com</a></li>
@@ -14,22 +17,22 @@ const Footer = () => {
                 </li>
                 <li><p>A propos</p>
                     <ul>
-                        <li>© Atout On Line 2023</li>
+                        <li>Votre avis est essentiel</li>
                         <li>
-                            "Cette application web a été produite"
+                            "Cette application web a été produite en 2024"
                         </li>
                     </ul>
                 </li>
                 <li><p>Reseaux sociaux</p>
                     <ul className="reseaux">
                         <li>
-                            <a href=""><i className="fab fa-facebook-f"></i></a>
+                            <a href=""><FaFacebookF /></a>
                         </li>
                         <li>
-                            <a href=""><i className="fab fa-instagram"></i></a>
+                            <a href=""><RiTwitterXFill /></a>
                         </li>
                         <li>
-                            <a href=""><i className="fab fa-twitter"></i></a>
+                            <a href=""><FaInstagram /></a>
                         </li>
                     </ul>
                 </li>

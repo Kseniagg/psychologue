@@ -1,12 +1,20 @@
 /* @import "react-alice-carousel/lib/alice-carousel.css"; */
 
+.section.tarifs {
+    margin-top: 10em;
+}
+
 .alice-carousel {
     width: 99%;
 }
 
 .alice-carousel__wrapper {
-    min-height: 13.5em;
-    padding-top: 20px;
+    min-height: 12.5em;
+    padding-top: 15px;
+}
+
+.alice-carousel__wrapper ul {
+    padding-left: 12px;
 }
 
 .alice-carousel__stage-item {
@@ -14,22 +22,23 @@
 }
 
 .alice-carousel__dots {
-    margin: 12px 3px 5px;
-}
-
-.alice-carousel__dots-item.__active,
-.alice-carousel__dots-item.__custom,
-.alice-carousel__dots-item {
-    background-color: #a9dbbb;
-}
-
-.alice-carousel__dots-item {
-    background-color: #ceddd3;
+    display: none;
 }
 
 .tarifs_bloc {
     display: flex;
     justify-content: space-around;
+}
+
+.alice-carousel__prev-btn,
+.alice-carousel__next-btn {
+    padding: 0px 5px;
+}
+
+.alice-carousel__prev-btn-item span,
+.alice-carousel__next-btn-item span {
+    font-size: 29px;
+    color: #82a8a8;
 }
 
 .tarifs_item {
@@ -55,4 +64,9 @@
 
 .tarifs_item_book span {
     color: rgb(222, 222, 33);
+    padding-left: 8px;
+}
+
+.tarifs_item_name {
+    padding-bottom: 15px;
 }

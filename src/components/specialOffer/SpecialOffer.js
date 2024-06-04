@@ -9,7 +9,7 @@ const SpecialOffer = () => {
             <div className='container specialoffer'>
                 <div className='section_sploffer_text'>
                     <p>Давайте познакомимся?</p>
-                    <p>первая консультация бесплатно</p>
+                    <p><span>первая консультация бесплатно</span></p>
                 </div>
                 <div className='section_sploffer_btn'>
                     < BtnBookTarifs />
