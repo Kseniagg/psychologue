@@ -1,59 +1,51 @@
 import { NavLink } from "react-router-dom";
+
 import "./style.css";
 
 const NavBar = () => {
-    const activeLink = 'nav-list__link nav-list__link--active';
-    const normalLink = 'nav-list__link';
 
     return (
         <>
-            <div className="nav">
-                <div className="container">
-                    <ul className="nav-list">
 
-                        <li className="nav-list__item">
-                            <NavLink
-                                to="/"
-                                className={({ isActive }) =>
-                                    isActive ? activeLink : normalLink
-                                }
-                            >
-                                Главная
-                            </NavLink>
-                        </li>
-                        <li className="nav-list__item">
-                            <NavLink
-                                to="/"
-                                className={({ isActive }) =>
-                                    isActive ? activeLink : normalLink
-                                }
-                            >
-                                Обо мне
-                            </NavLink>
-                        </li>
-                        <li className="nav-list__item">
-                            <NavLink
-                                to="/"
-                                className={({ isActive }) =>
-                                    isActive ? activeLink : normalLink
-                                }
-                            >
-                                Тарифы
-                            </NavLink>
-                        </li >
-                        <li className="nav-list__item">
-                            <NavLink
-                                to="/"
-                                className={({ isActive }) =>
-                                    isActive ? activeLink : normalLink
-                                }
-                            >
-                                Контакты
-                            </NavLink>
-                        </li >
-                    </ul>
-                </div>
+
+            <div className="nav">
+                <ul className="nav-list">
+
+                    <li className="nav-list__item">
+                        <a href="/"
+                            className=""
+
+                        >
+                            Accueil
+                        </a>
+                    </li>
+                    <li className="nav-list__item">
+                        <a
+                            href="#aboutme-section"
+                            className=""
+                        >
+                            A propos
+                        </a>
+                    </li>
+                    <li className="nav-list__item">
+                        <a
+                            href="#prices-section"
+
+                        >
+                            Prix
+                        </a>
+                    </li >
+                    <li className="nav-list__item">
+                        <a href="#contacts-section"
+
+                        >
+                            Contacts
+                        </a>
+                    </li >
+                </ul>
             </div>
+
+
         </>
     )
 }
