@@ -31,7 +31,7 @@ const Faq = () => {
     return (
         <div className="section faq-section">
             {/* <h3>Частые вопросы</h3> */}
-            <h3>Questions frequantes</h3>
+            <h3>Questions fréquentes</h3>
             <div className="accordion">
                 {data.map(({ question, response }, n) => (
                     <Accordion title={question} content={response} key={n} />

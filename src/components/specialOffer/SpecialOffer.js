@@ -10,8 +10,8 @@ const SpecialOffer = () => {
                 <div className='section_sploffer_text'>
                     {/* <p>Давайте познакомимся?</p>
                     <p><span>первая консультация бесплатно</span></p> */}
-                    <p>On va se connaitre ?</p>
-                    <p><span>la première consultation est gratuit</span></p>
+                    <p>On fait connaissance ?</p>
+                    <p><span>la première consultation est gratuite</span></p>
                 </div>
                 <div className='section_sploffer_btn'>
                     < BtnBookTarifs />
