@@ -40,7 +40,7 @@ const AboutMe = () => {
                             <div>Смена професии</div>
                             <div>Магистратура</div> */}
                             <div>Premier diplôme d'économiste</div>
-                            <div>Coach dans un banque</div>
+                            <div>Coach dans une banque</div>
                             <div>Hyperempathique émotionnel </div>
                             <div>Hobby - literature psychologique</div>
                             <div>Reconversion professionnelle</div>

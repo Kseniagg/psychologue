@@ -76,6 +76,10 @@
     width: 60%;
 }
 
+.article-title {
+    margin-bottom: 5px;
+}
+
 .img-box {
     margin-bottom: 2px;
 }

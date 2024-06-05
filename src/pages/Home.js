@@ -47,7 +47,7 @@ const Home = () => {
 
                     <article className="section-mywork">
                         {/* <h3>Направления моей деятельности</h3> */}
-                        <h3>Je vous accompagne dans...</h3>
+                        <h3>Je vous accompagne pour...</h3>
                         <div className="article-mywork">
                             <div className="article-item">
                                 <div className="img-box"><img src={pic3} className="article-img" alt=""></img></div>
@@ -68,7 +68,7 @@ const Home = () => {
                                 {/* <p className="article-title">Финансы</p>
                                 <p>Работа с материальным благополучием</p> */}
                                 <p className="article-title">Finances</p>
-                                <p>Travailler avec le bien-être financièr</p>
+                                <p>Travailler avec la santé financière</p>
                             </div>
 
                         </div>
