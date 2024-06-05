@@ -7,7 +7,11 @@ import logo from "../../img/logo.png";
 
 
 const Header = () => {
-    const items = [{ value: "Главная", href: '/' }, { value: "Обо мне", href: '#aboutme-section' }, { value: "Тарифы", href: '#prices-section' }, { value: "Контакты", href: '#contacts-section' }]
+    /* const items = [{ value: "Главная", href: '/' }, { value: "Обо мне", href: '#aboutme-section' }, { value: "Тарифы", href: '#prices-section' }, { value: "Контакты", href: '#contacts-section' }] */
+    const items = [{ value: "Главная", href: '/' },
+    { value: "A propos", href: '#aboutme-section' },
+    { value: "Prix", href: '#prices-section' },
+    { value: "Contacts", href: '#contacts-section' }]
     const [menuActive, setMenuActive] = useState(false);
 
     return (

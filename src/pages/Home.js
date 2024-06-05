@@ -30,8 +30,10 @@ const Home = () => {
                     <div className="bgd bgd-photo"></div>
                     <div className="main-text">
                         <div className="name-text">
-                            <h1>Ольга Берген</h1>
-                            <p>психолог</p>
+                            {/* <h1>Ольга Берген</h1>
+                            <p>психолог</p> */}
+                            <h1>Olga Bergen</h1>
+                            <p>psychologue</p>
                         </div>
                         <div>
                             <BtnBook />
@@ -44,22 +46,29 @@ const Home = () => {
                 <div className="container">
 
                     <article className="section-mywork">
-                        <h3>Направления моей деятельности</h3>
+                        {/* <h3>Направления моей деятельности</h3> */}
+                        <h3>Je vous accompagne dans...</h3>
                         <div className="article-mywork">
                             <div className="article-item">
                                 <div className="img-box"><img src={pic3} className="article-img" alt=""></img></div>
-                                <p className="article-title">Травмы</p>
-                                <p>Проработка травматического опыта</p>
+                                {/* <p className="article-title">Травмы</p> */}
+                                <p className="article-title">Traumatismes psychologiques</p>
+                                {/* <p>Проработка травматического опыта</p> */}
+                                <p>Traitement des expériences traumatisantes</p>
                             </div>
                             <div className="article-item">
                                 <div className="img-box"><img src={pic1} className="article-img" alt="" /></div>
-                                <p className="article-title">Отношения</p>
-                                <p>Устранения созависимостей</p>
+                                {/* <p className="article-title">Отношения</p> */}
+                                <p className="article-title">Relations de couple</p>
+                                {/*  <p>Устранения созависимостей</p> */}
+                                <p>Faire face aux codépendances</p>
                             </div>
                             <div className="article-item">
                                 <div className="img-box"><img src={pic2} className="article-img" alt="" /></div>
-                                <p className="article-title">Финансы</p>
-                                <p>Работа с материальным благополучием</p>
+                                {/* <p className="article-title">Финансы</p>
+                                <p>Работа с материальным благополучием</p> */}
+                                <p className="article-title">Finances</p>
+                                <p>Travailler avec le bien-être financièr</p>
                             </div>
 
                         </div>

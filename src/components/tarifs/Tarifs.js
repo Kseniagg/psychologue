@@ -14,42 +14,45 @@ const Tarifs = () => {
 
     const items = [
         <div className="tarifs_item item" data-value="1" >
-            <p className="tarifs_item_name"><strong>Диагностика</strong></p>
+            {/* <p className="tarifs_item_name"><strong>Диагностика</strong></p> */}
+            <p className="tarifs_item_name"><strong>Le diagnostic</strong></p>
             <p>Lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem
                 ipsum ipsum lorem ipsum ipsum lorem
             </p>
             <div className="tarifs_item_book">
-                <p>40 мин <span>Бесплатно</span></p>
+                <p>40 min <span>Gratuit</span></p>
                 <BtnBookTarifs />
             </div>
         </div>,
         <div className="tarifs_item item" data-value="2">
-            <p className="tarifs_item_name"><strong>Личная консультация</strong></p>
+            {/*  <p className="tarifs_item_name"><strong>Личная консультация</strong></p> */}
             <p>Lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem
                 ipsum ipsum lorem ipsum ipsum lorem
             </p>
             <div className="tarifs_item_book">
-                <p>40 мин <span>Бесплатно</span></p>
+                <p>40 min <span>Gratuit</span></p>
                 <BtnBookTarifs />
             </div>
         </div>,
         <div className="tarifs_item item" data-value="3">
-            <p className="tarifs_item_name"><strong>Консультация для пары</strong></p>
+            {/* <p className="tarifs_item_name"><strong>Консультация для пары</strong></p> */}
+            <p className="tarifs_item_name"><strong>Consultation de couple</strong></p>
             <p>Lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem
                 ipsum ipsum lorem ipsum ipsum lorem
             </p>
             <div className="tarifs_item_book">
-                <p>40 мин <span>Бесплатно</span></p>
+                <p>40 min <span>Gratuit</span></p>
                 <BtnBookTarifs />
             </div>
         </div>,
         <div className="tarifs_item item" data-value="4">
+            {/* <p className="tarifs_item_name"><strong>Пакет консультаций</strong></p> */}
             <p className="tarifs_item_name"><strong>Пакет консультаций</strong></p>
             <p>Lorem ipsum ipsum lorem ipsum ipsum lorem ipsum ipsum lorem
                 ipsum ipsum lorem ipsum ipsum lorem
             </p>
             <div className="tarifs_item_book">
-                <p>40 мин <span>5 000 руб</span></p>
+                <p>40 min <span>50€</span></p>
                 <BtnBookTarifs />
             </div>
         </div>,
@@ -58,7 +61,8 @@ const Tarifs = () => {
 
     return (
         <div className="section tarifs" id="prices-section">
-            <h3>Тарифы и услуги</h3>
+            {/* <h3>Тарифы и услуги</h3> */}
+            <h3>Prix et и услуги</h3>
             <div className="tarifs_bloc">
                 <AliceCarousel
                     mouseTracking

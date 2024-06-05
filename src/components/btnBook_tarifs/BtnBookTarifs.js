@@ -25,7 +25,8 @@ const BtnBookTarifs = () => {
 
             <button className="btn-action"
                 onClick={() => setActivatedBtn(!false)}>
-                <a href="https://dikidi.ru/#widget=138122" className="lien">Записаться</a>
+                {/* <a href="https://dikidi.ru/#widget=138122" className="lien">Записаться</a> */}
+                <a href="https://dikidi.ru/#widget=138122" className="lien">Reserver</a>
             </button>
 
         </>

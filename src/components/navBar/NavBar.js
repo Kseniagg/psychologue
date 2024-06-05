@@ -16,7 +16,7 @@ const NavBar = () => {
                             className=""
 
                         >
-                            Главная
+                            Accueil
                         </a>
                     </li>
                     <li className="nav-list__item">
@@ -24,7 +24,7 @@ const NavBar = () => {
                             href="#aboutme-section"
                             className=""
                         >
-                            Обо мне
+                            A propos
                         </a>
                     </li>
                     <li className="nav-list__item">
@@ -32,14 +32,14 @@ const NavBar = () => {
                             href="#prices-section"
 
                         >
-                            Тарифы
+                            Prix
                         </a>
                     </li >
                     <li className="nav-list__item">
                         <a href="#contacts-section"
 
                         >
-                            Контакты
+                            Contacts
                         </a>
                     </li >
                 </ul>

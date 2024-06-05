@@ -6,24 +6,19 @@
 	src: url("../fonts/MyFont.ttf");
 }
 
-body {
-	font-family: MyFont, sans-serif;
-}
-
-
 * {
 	box-sizing: border-box;
 }
 
 /* Dark mode */
-.dark {
+/* .dark {
 
 	.header {
 		background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(165, 171, 17, 1) 80%);
 		;
 	}
 
-}
+} */
 
 html,
 body {
@@ -33,8 +28,9 @@ body {
 }
 
 body {
-	/* background-color: #f9fafa; */
+	background-color: #f9fafa;
 	color: #444;
+	font-family: MyFont, sans-serif;
 }
 
 #root {

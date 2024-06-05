@@ -6,7 +6,7 @@ const Faq = () => {
 
     const data = [
         {
-            "question": "Сколько длится сессия ?",
+            "question": "Combien dure une consultation ?",
             "response": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod nobis, repellat neque non dict fugiat veritatis sit delectus perspiciatis quis?"
         },
         {
@@ -30,7 +30,8 @@ const Faq = () => {
 
     return (
         <div className="section faq-section">
-            <h3>Частые вопросы</h3>
+            {/* <h3>Частые вопросы</h3> */}
+            <h3>Questions frequantes</h3>
             <div className="accordion">
                 {data.map(({ question, response }, n) => (
                     <Accordion title={question} content={response} key={n} />
